@@ -1,6 +1,6 @@
 {
   "name": "@standardorg/eslint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "standardorg's ESLint config",
   "main": ".eslintrc.json",
   "author": "Juan Garcia",
