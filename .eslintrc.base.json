@@ -1,0 +1,47 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "env": {
+        "commonjs": true,
+        "jest": true,
+        "es2017": true
+    },
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "prettier",
+        "eslint-plugin-jest"
+    ],
+    "ignorePatterns": [
+        "dist"
+    ],
+    "rules": {
+		"curly": "error",
+		"object-literal-sort-keys": 0,
+		"max-line-length": 0,
+        "semi": ["error", "always"],
+        "no-duplicate-imports": "error",
+        "arrow-parens": "off",
+        "brace-style": [2, "1tbs"],
+        "no-use-before-define": "error",
+        "no-shadow": "error",
+        "no-throw-literal": "error",
+        "guard-for-in": "error",
+        "default-case": "off",
+        "no-console": "error",
+        "no-alert": "error",
+
+        "@typescript-eslint/prefer-for-of": "error",
+        "@typescript-eslint/no-empty-interface": 2,
+		"@typescript-eslint/no-unused-vars": 2,
+		"@typescript-eslint/interface-name-prefix": 0,
+        "@typescript-eslint/no-parameter-properties": 0
+    }
+}
